@@ -4,9 +4,11 @@ function showTutorials()
 	document.getElementById("projContent").innerHTML = 
 	'\
 	\
-	<div id="projContent">\
-		<p> Completed Tutorials </p>\
-	</div>\
+	<hr>\
+	<a href="https://github.com/StevenPG/Android-Flashlight-Application" target="_blank"> - Android Flashlight Application</a>\
+	<hr>\
+	<p> Image placeholder text</p>\
+	<br><br><br>\
 	\
 	';
 }
