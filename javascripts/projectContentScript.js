@@ -3,13 +3,22 @@ function showTutorials()
 {
 	document.getElementById("projContent").innerHTML = 
 	'\
+	<div style="width:50%;float:left;">\
+		<br>\
+		<a href="https://github.com/StevenPG/My-First-App-Continued" target="_blank"> - Android Flashlight Application</a>\
+		<hr>\
+		<img src="flashlight.png" alt="Screenshot of application" style="width:64%;height:300px;">\
+		<br><br><br>\
+	</div>\
+	<div style="width:50%;float:right;">\
+		<br>\
+		<a href="https://github.com/StevenPG/My-First-App" target="_blank"> - My-First-App (via developer.android.com)</a>\
+		<hr>\
+		<img src="myfirstapp.png" alt="Screenshot of application" style="width:64%;height:300px;">\
+		<br><br><br>\
+	</div>\
 	\
-	<hr>\
-	<a href="https://github.com/StevenPG/Android-Flashlight-Application" target="_blank"> - Android Flashlight Application</a>\
-	<hr>\
-	<p> Image placeholder text</p>\
-	<br><br><br>\
-	\
+	<p>&nbsp;</p>\
 	';
 }
 
@@ -19,7 +28,7 @@ function showMainProjects()
 	document.getElementById("projContent").innerHTML = 
 	'\
 	\
-	<hr>\
+	<br>\
 	<a href="https://github.com/StevenPG/ProjectEuler" target="_blank"> - Project Euler Problem listing on GitHub</a><br>\
 	<hr>\
 	<img src="ProjectEulerGithubScreenShot.png" alt="Screenshot from GitHub" style="width:99%;height:130px;">\
