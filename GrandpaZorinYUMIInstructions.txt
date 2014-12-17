@@ -1,0 +1,63 @@
+Hello!
+
+I'm sending this to both of you mainly due to my issues receiving Grandpa's emails. 
+
+Grandpa! When you get this, reply to me so I know we have email capability. Also, you will need to copy and paste links into your browser.
+
+Grandma! Wassup? Here's some information you don't care about! Grandpa should probably use your computer, but this process has the Steve Gantz Seal of Approval, and nothing bad shall come to your machine.
+
+Here are the following steps, I am doing this as I type, so they should be accurate down to the letter. I will number them for convenience sake, and will include download links and images as best as I can.
+
+
+1. Download YUMI - http://www.pendrivelinux.com/downloads/YUMI/YUMI-2.0.1.2.exe
+- This is the tool that will install the operating system on the flash drive, and creates the bootloader that the BIOS will connect directly to to load the operating system into memory.
+
+2. Do not open YUMI yet, it should be living in your Downloads folder for now. Now is time to download the Zorin-ISO, here is the download link below:
+http://downloads.sourceforge.net/project/zorin-os/9/zorin-os-9-lite-32.iso?r=&ts=1418793426&use_mirror=softlayer-dal
+- This link may open up a page, leave it go and it should just begin the download by itself.
+
+3. The longest step, wait until YUMI is finished downloading (Should be relatively quick) and wait until Zorin is finished downloading (may take up to an hour).
+- Once the files are both available (see image link below), move on to step 4.
+
+- These are how the files should be -> http://i.imgur.com/0wpEww9.png
+
+4. Both files should be finished downloading and in an easy to find (and delete eventually) location.
+
+5. Double click on YUMI-2.0.1.2.exe and a window should open.
+
+6. Click I agree at the bottom right next to cancel.
+
+7. Under Step 1, click directly on the black text: Show All Drives?
+
+8. This should place a black checkmark in the box next to it and the words should change to: Showing All Drives
+
+9. Click the dropdown menu next to the checkmark, and select your PNY flash drive. Make sure not to select anything that says recovery or the C: drive. It should have the same drive letter as your flash drive (For example, mine was E:)
+
+10. Next, click the now ungrayed out dropdown under Step 2
+
+11. Click the Z on the keyboard to jump to Zorin-OS. If this doesn't work, just scroll until you see it. 
+
+12. Select Zorin OS Core
+
+13. Step 3 should have ungrayed. Click Browse and navigate to your downloaded Zorin OS iso you downloaded earlier. Select it and click Open.
+
+14. Your YUMI box should look like this link, though the USB will have a different name and size than mine obviously. As well as a different pathway to the zorin-os-9-like-32.iso file. Here is the image link for what it should look like.
+
+http://i.imgur.com/9nzUJXK.png
+
+15. Click create once you are sure everything is set up, and you have not selected C: or Recovery
+
+16. A dialogue box with a loading bar will appear. Do not interrupt this, when it is complete continue with step 17.
+
+17. Once the window closes, click next in the bottom right corner of YUMI.
+
+18. A dialogue box that asks whether you would like to add more ISOs to the flash drive will appear, click No. 
+
+19. Click finish in the bottom of YUMI
+
+20. Eject the flash drive and attempt to boot to it on little laptop.
+
+Good luck!
+
+- Steven
+
