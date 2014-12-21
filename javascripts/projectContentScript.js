@@ -1,6 +1,7 @@
 //Show tutorial completion projects
 function showTutorials()
 {
+	document.getElementById("location").innerHTML = '<h1 id="location">Stevenpg.GitHub.io/Projects/Tutorials</h1>';
 	document.getElementById("projContent").innerHTML = 
 	'\
 	<div>\
@@ -34,6 +35,7 @@ function showTutorials()
 //Show independent projects
 function showMainProjects()
 {
+	document.getElementById("location").innerHTML = '<h1 id="location">Stevenpg.GitHub.io/Projects/Independents</h1>';
 	document.getElementById("projContent").innerHTML = 
 	'\
 	\
