@@ -38,12 +38,7 @@
 				</ul>
 			</div>
 			<hr>
-			<div style="width:50%;float:left;">
-				<h3><a id="welcome-to-github-pages" style="float:left;" class="anchor" href="#welcome-to-github-pages" aria-hidden="true">
-					<span class="octicon octicon-link"></span></a>Portfolio Landing Page
-				</h3>
-			</div>
-			<div style="width:50%;float:right;">
+			<div style="width:50%;">
 				<form method="get" action="http://www.google.com/search">
 					<div style="float:right;padding:4px;width:20em;">
 						<input type="text"   name="q" size="25" maxlength="255" value="" />
@@ -62,74 +57,129 @@
 				
 				<!-- Hidden To-do list element -->
 				<div id="todo_list">
+					<!--<h4> To Do list (populate)</h4>
+					<hr>           
+					<p> - hidden todo list expansion</p>
+					<p> - collapsible resume headlines for h3 and h4 bolded headlines</p>
+					<p> - Complete book before attempting widget again</p>
+					<p> - Add another project subdirectory for tutorials, Web and Book ones (in anticipation for practicing techniques described in .pdf book</p>
+					<p> - Flashlight widget</p>
+					<p> - create core-remove python script for linux systems</p>
+					<p> - figure out github project with zach</p>
+					<p> - categorize download links by type</p>
+					<p> - Complete Java Netbeans EE tutorial (probably most important in regards to enterprise level java (in resource links)</p>
+					<p> - Complete blockbunnies Java game tutorial web series (in resource links)</p>
+					<p> - Turn this page into more of a resume by mid january</p>
+					<p> - Link and work on linear algebra on khanacademy</p>
+					-->
 				</div>
 				<!-- End hidden element -->
 				
-				<div id="summary">
-					<h3> Summary</h3>
-					<hr>
-					<p style="padding-left:2em;"> Summary
+				<script src="javascripts/resumecollapse.js"></script>
+				<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('summary')">
+					<h3 style="border:2px solid;box-shadow: 10px 10px 5px #888888;"> Summary</h3>
+				</a>
+				<div id="summary" style="display:block;">
+					<p style="padding-left:2em;display:block;"> 
+						Professional Summary
 					</p>
 				</div>
 				
-				<div id="Technology Summary">
-					<br><hr>
-					<h3> Technology Summary</h3>
-					<hr>
-					<h4> Programming Languages</h4>
-						<p style="padding-left:2em;"> information</p>
-					<h4> Systems Experience</h4>
-						<p style="padding-left:2em;"> information</p>
-					<h4> Software Competency</h4>
-						<p style="padding-left:2em;"> information</p>
+				<br>
+				<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('TechnologySummary')">
+					<h3 style="border:2px solid;box-shadow: 10px 10px 5px #888888;"> Technology Summary</h3>
+				</a>
+				<div id="TechnologySummary" style="display:block;">
+					<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('proglang')">
+						<h4 >Programming Languages </h4>
+					</a>
+						<ul id="proglang" style="padding-left:2em;display:block;"> 
+							<p> - Extensive Java, C and C++ in academic and recreational context</p>
+							<p> - Professional and recreational use of Python</p>
+							<p> - Academic use of SPARC Assembly programming</p>
+							<p> - Visual BASIC GUI programming</p>
+							<p> - Web languages: HTML, CSS, JavaScript, PHP, MySQL</p>
+						</ul>
+					
+					<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('sysexp')">
+						<h4> Systems Experience</h4>
+					</a>
+						<ul id="sysexp" style="padding-left:2em;display:block;">
+							<p> - Extensive use of Unix, including heavy academic Solaris use and recreational 
+							use of Linux systems primarily based on Ubuntu and Debian.</p>
+							<p> - A lifetime of Windows use, primarily Windows XP, Vista, 7, 8/8.1, and 10.</p>
+							<p> - About 5 years of Mac OSX use.</p>
+							
+						</ul>
+					
+					<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('softcomp')">
+						<h4> Software Competency</h4>
+					</a>
+						<ul id="softcomp" style="padding-left:2em;display:block;">
+							<p> - Microsoft products such as Powerpoint, Word, Excel, Outlook, 
+							Access, and OneNote. Along with multiple programming IDEs,
+							including Visual Studio 2010 and 2013</p>
+							<p>	- Eclipse and the Android Studio variant</p>
+							<p> - Nano and Emacs editors (Command line)</p>
+							<p> - Apache Tomcat and Apache2 web server</p>
+							<p> - SSH and FTP applications</p>
+							<p> - Virtual Machine management and use</p>
+						</ul>
 				</div>
 				
-				<div id="Professional Experience">
-					<br><hr>
-					<h3> Job Experience</h3>
-					<hr>
-					<h4> Computer Technician - Kutztown University (August 2013 - Present)</h4>
-						<p style="padding-left:2em;"> 
-						information
+				<br>
+				<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('ProfessionalExperience')">
+					<h3 style="border:2px solid;box-shadow: 10px 10px 5px #888888;"> Professional Experience</h3>
+				</a>
+				<div id="ProfessionalExperience" style="display:block;">
+					<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('comptech')">
+						<h4> Computer Technician - Kutztown University (August 2013 - Present)</h4>
+					</a>
+						<p id="comptech" style="padding-left:2em;display:block;"> 
+							The majority of my time involved troubleshooting and correcting various
+							issues involving on and off campus students' problems. These problems 
+							presented in software and hardware. Standard software issues included
+							recovering corrupted data and user accounts, malware and rootkit removal,
+							teaching students how to use common software, and operating system 
+							reinstallations. Common hardware issues were screen replacements, hard drive
+							replacements, and damaged storage devices such as external hard drives and USB
+							flash drives. 
 						</p>
-					<h4> Software Test Engineering Intern - Vertex Inc. (May 2014 - August 2014)</h4>
-						<p style="padding-left:2em;">
-						My primary role was testing weekly product builds using specific testing
-						software and practices. Role was extended to limited linux programming where
-						I developed an automated installation script for the product within a linux
-						virtual machine environment for weekly testing purposes.
+					
+					<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('softtest')">
+						<h4> Software Test Engineering Intern - Vertex Inc. (May 2014 - August 2014)</h4>
+					</a>
+						<p id="softtest" style="padding-left:2em;display:block;">
+							My primary role was testing weekly product builds using specific testing
+							software and practices. Role was extended to limited linux programming where
+							I developed an automated installation script for the product within a linux
+							virtual machine environment for weekly testing purposes.
 						</p>
-					<h4> Seasonal Sales Associate - Best Buy (November 2013 - January 2014)</h4>
-						<p style="padding-left:2em;"> 
-						My general work involved dealing directly with customer concerns,
-						managing product returns and exchanges, and fulfilling online order pickups.
-						I occassionally served as a standard sales associate, with expertise
-						on specific products, namely; computers, tablets, video games, 
-						televisions, and home stereo systems.
+						
+					<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('seassale')">
+						<h4> Seasonal Sales Associate - Best Buy (November 2013 - January 2014)</h4>
+					</a>	
+						<p id="seassale" style="padding-left:2em;display:block;"> 
+							My general work involved dealing directly with customer concerns,
+							managing product returns and exchanges, and fulfilling online order pickups.
+							I occassionally served as a standard sales associate, with expertise
+							on specific products, namely; computers, tablets, video games, 
+							televisions, and home stereo systems.
 						</p>
-					<h4> Crew Member - Wendy's (October 2010 - August 2013)</h4>
-						<p style="padding-left:2em;">
-						Primary roles involved standard fast food positions. Manning the
-						cash register, cooking and serving hamburgers, chicken, and french 
-						fry products. 
+					
+					<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('crewmemb')">
+						<h4> Crew Member - Wendy's (October 2010 - August 2013)</h4>
+					</a>					
+					<p id="crewmemb" style="padding-left:2em;display:block;">
+							Primary roles involved standard fast food positions. Manning the
+							cash register, cooking and serving hamburgers, chicken, and french 
+							fry products. 
 						</p>
 				</div>
 			</div>
 			
 			<!--
-            <h4> To Do list (populate)</h4>
-            <hr>           
-			<p> - Put resume on front page with hidden todo list expansion</p>
-			<p> - Complete book before attempting widget again</p>
-			<p> - Add another project subdirectory for tutorials, Web and Book ones (in anticipation for practicing techniques described in .pdf book</p>
-			<p> - Flashlight widget</p>
-			<p> - create core-remove python script for linux systems</p>
-			<p> - figure out github project with zach</p>
-			<p> - categorize download links by type</p>
-			<p> - Complete Java Netbeans EE tutorial (probably most important in regards to enterprise level java (in resource links)</p>
-			<p> - Complete blockbunnies Java game tutorial web series (in resource links)</p>
-			<p> - Turn this page into more of a resume by mid january</p>
-            <p> - Link and work on linear algebra on khanacademy</p>
+            
 			-->
 			
         </section>
