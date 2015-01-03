@@ -39,7 +39,10 @@ function showMainProjects()
 	document.getElementById("projContent").innerHTML = 
 	'\
 	\
-	<br>\
+	<a href="https://github.com/StevenPG/core-remove" target="_blank"> - Core Removal Script on GitHub</a><br>\
+	<hr>\
+	<img src="CoreRemoveScreenshot.png" alt="Screenshot from GitHub" style="width:99%;height:130px;">\
+	<br><br><br>\
 	<a href="https://github.com/StevenPG/ProjectEuler" target="_blank"> - Project Euler Problem listing on GitHub</a><br>\
 	<hr>\
 	<img src="ProjectEulerGithubScreenShot.png" alt="Screenshot from GitHub" style="width:99%;height:130px;">\
