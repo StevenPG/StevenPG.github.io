@@ -92,6 +92,10 @@ function showBooks(){
 			<td>Mark Allen Weiss</td>\
 		</tr>\
 		<tr>\
+			<td>UNIX for Programmers and Users (2003)</td>\
+			<td>Graham Glass & King Ables</td>\
+		</tr>\
+		<tr>\
 			<td>Python Essential Reference (2009 PDF)</td>\
 			<td>D. Beazley</td>\
 		</tr>\
