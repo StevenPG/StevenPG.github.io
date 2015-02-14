@@ -39,6 +39,10 @@ function showMainProjects()
 	document.getElementById("projContent").innerHTML = 
 	'\
 	\
+	<a href="https://github.com/StevenPG/P2PJtalk" target="_blank"> - JtalkServer IM</a><br>\
+	<hr>\
+	<img src="JtalkServer.png" alt="Screenshot from Program" style="width:99%;height:130px;">\
+	<br><br><br>\
 	<a href="https://github.com/StevenPG/core-remove" target="_blank"> - Core Removal Script on GitHub</a><br>\
 	<hr>\
 	<img src="CoreRemoveScreenshot.png" alt="Screenshot from GitHub" style="width:99%;height:130px;">\
