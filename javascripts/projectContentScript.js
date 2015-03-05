@@ -39,7 +39,7 @@ function showMainProjects()
 	document.getElementById("projContent").innerHTML = 
 	'\
 	\
-	<a href="https://github.com/StevenPG/CSC354-CDE335" target="_blank"> - Kutztown University Augmented Reality Android App</a><br>\
+	<a href="https://github.com/StevenPG/KUSelfTour" target="_blank"> - Kutztown University Augmented Reality Android App</a><br>\
 	<hr>\
 	<img src="" alt="Temporary Picture" style="width:99%;height:130px;">\
 	<br><br><br>\
