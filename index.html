@@ -21,14 +21,19 @@
 <body>
     <div class="wrapper">
         <header>
-            <h1>Stevenpg.GitHub.io</h1>
-			<p style="display:inline;">Steven . GitHub 
-			<a style="display:inline;"; href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('todo')">
-			.
-			</a>
-			io
-			</p>
-			
+            <h1>StevenPG's Web Server</h1>
+			<div style="width:100%">
+				<div style="width:50%;float:left;">
+					<form method="get" action="http://www.google.com/search">
+						<div style="float:right;padding:4px;width:20em;">
+							<input type="text"   name="q" size="25" maxlength="255" value="" />
+							<input type="submit" value="Google Search" />
+						</div>
+					</form><br>
+				</div>
+			</div>
+			<br>
+			<br>
             <ul>
                 <li class="single"><a href="https://github.com/StevenPG/" target="_blank">View me on <strong>GitHub</strong></a>
                 </li>
@@ -37,6 +42,7 @@
         <section>
 			<div id="menu">
 				<ul>
+					<a href="./Upload/index.html">Upload Code</a>
 					<a href="./Projects/index.html">Projects</a>
 					<a href="./Downloads/index.html">Downloads<a/>
 					<a href="./ResourceLinks/index.html">Resource Links</a>
@@ -44,26 +50,7 @@
 				</ul>
 			</div>
 			<hr>
-			<div style="width:50%;">
-				<form method="get" action="http://www.google.com/search">
-					<div style="float:right;padding:4px;width:20em;">
-						<input type="text"   name="q" size="25" maxlength="255" value="" />
-						<input type="submit" value="Google Search" />
-					</div>
-				</form><br>
-			</div>
 			<br>
-			
-			<div id="todo" style="display:none;">
-				<p>Hidden Project To-Do List</p>
-				<ul>
-					<p> - Complete Java Netbeans EE tutorial (probably most important in regards to enterprise level java (in resource links)</p>
-					<p> - Continue working on Big Nerd Ranch</p>
-					<p> - Flashlight widget</p>
-					<p> - Complete blockbunnies Java game tutorial web series (in resource links)</p>
-					<p> - Link and work on linear algebra on khanacademy</p>
-				</ul>
-			</div>
 			
 			<!-- Portfolio -->
 			<div id="portfolio"><br>
@@ -112,7 +99,7 @@
 							<p> - Extensive use of Unix, including heavy academic Solaris use and recreational 
 							use of Linux systems primarily based on Ubuntu and Debian.</p>
 							<p> - Longtime use of Windows, primarily Windows XP, Vista, 7, 8/8.1, and 10.</p>
-							<p> - About 5 years of Mac OSX use.</p>
+							<p> - About 6 years of Mac OSX use.</p>
 							
 						</ul>
 					
@@ -123,8 +110,10 @@
 							<p> - Microsoft products such as Powerpoint, Word, Excel, Outlook, 
 							Access, and OneNote. Along with multiple programming IDEs,
 							including Visual Studio 2010 and 2013</p>
-							<p>	- Eclipse and the Android Studio variant</p>
-							<p> - Nano and Emacs editors (Command line)</p>
+							<p> - NetBeans Java EE IDE
+							<p> - Eclipse for C++, Java SE, and JavaEE
+							<p>	- Android Studio</p>
+							<p> - Vim, Emacs, and Nano text editors</p>
 							<p> - Apache Tomcat and Apache2 web server</p>
 							<p> - SSH and FTP applications</p>
 							<p> - Virtual Machine management and use</p>
@@ -136,6 +125,14 @@
 					<h3 style="border:2px solid;box-shadow: 10px 10px 5px #888888;"> Professional Experience</h3>
 				</a>
 				<div id="ProfessionalExperience" style="display:block;">
+					<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('softest')">
+						<h4> Software Test Engineer Temporary - Vertex Inc. (May 2015 - Present)</h4>
+					</a>
+						<p id="softtest" style="padding-left:2em;display:block;">
+							Returning to a prior role testing weekly product builds using specific
+							testing software and practices.
+						</p>
+						
 					<a href="javascript:void(0); //Click to Collapse/Uncollapse" onclick="collapseById('comptech')">
 						<h4> Computer Technician - Kutztown University (August 2013 - Present)</h4>
 					</a>
