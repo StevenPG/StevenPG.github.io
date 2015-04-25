@@ -1,1 +1,2 @@
 # WebServer
+This repository will be a webpage that provides access to the WebServer, information for friends, family, and potential employers. The webpage is hosted locally on an Optiplex-755 server machine to allow for database use and complete customization.
