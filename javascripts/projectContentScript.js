@@ -10,6 +10,10 @@ function showBooks(){
 			<th>Author(s)</td>\
 		</tr>\
 		<tr>\
+			<td>Java After Hours: 10 Projects You Wont Do at Work (2005)</td>\
+			<td>Steven Holzner<td>\
+			</tr>\
+		<tr>\
 			<td>Android Programming: The Big Nerd Ranch Guide (2013 PDF)</td>\
 			<td>Bill Phillips & Brian Hardy</td>\
 		</tr>\
