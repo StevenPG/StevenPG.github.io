@@ -1,4 +1,9 @@
-﻿body{margin:0px; padding:0px; background:#000; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000;}
+﻿body{
+	margin:0px; padding:0px;
+	background-image:url('background.jpg'); 
+	background-repeat:no-repeat;
+	background-size:1600px 800px;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px;}
 
 a{color:#076286; text-decoration:underline;}
 
