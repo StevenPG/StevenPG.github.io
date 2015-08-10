@@ -14,6 +14,7 @@ a {
 a:hover {
 	color: #076286;
 	text-decoration: none;
+	border-radius: 10px;
 }
 .copyright {
 	border: 0px;
@@ -44,6 +45,7 @@ a:hover {
 	float: left;
 	background: url(../images/nav-bg.jpg) top repeat-x;
 	height: 36px;
+	border-radius: 10px;
 }
 #nav ul {
 	margin: 0px;
@@ -87,21 +89,25 @@ a:hover {
 	width: 934px;
 	margin: 0 auto;
 	padding: 0px;
+	border-radius:10px;
 }
 #mid-wraper-inner {
 	width: 934px;
 	float: left;
 	background: url(../images/mid-bg.jpg) repeat-y;
+	border-radius: 10px;
 }
 #left-wraper {
 	width: 296px;
 	float: left;
+	border-radius: 10px;
 }
 #left-wraper-top {
 	width: 296px;
 	background: #fef4e9 url(../images/left-mid.jpg) bottom no-repeat;
 	padding: 0px 0px 12px 0px;
 	float: left;
+	border-radius: 10px;
 }
 #left-wraper-top ul {
 	margin: 0px;
