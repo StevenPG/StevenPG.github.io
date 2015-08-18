@@ -1,12 +1,9 @@
-﻿html {
-	background-image: url('background.jpg');
-	background-size: cover;
-	background-repeat:no-repeat;
-}
-
-body {
+﻿body {
 	margin: 0px;
 	padding: 0px;
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
@@ -17,6 +14,7 @@ a {
 a:hover {
 	color: #076286;
 	text-decoration: none;
+	border-radius: 10px;
 }
 .copyright {
 	border: 0px;
@@ -24,25 +22,30 @@ a:hover {
 	width: 1px;
 }
 #main-wraper {
-	width: 100%;
+	width: 934px;
+	margin: 0 auto;
+	padding: 0px;
 }
 #top-wraper {
-	width: 100%;
+	width: 934px;
+	float: left;
 }
 #banner {
-	width: 100%;
-	height: 10%;
+	width: 814px;
+	height: 90px;
+	float: left;
 	padding: 65px 0px 0px 120px;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 500%;
+	font-size: 40px;
 	text-decoration:underline;
 	color: #fff;
 }
 #nav {
-	width: 100%;
+	width: 934px;
 	float: left;
 	background: url(../images/nav-bg.jpg) top repeat-x;
-	height: 10%;
+	height: 36px;
+	border-radius: 10px;
 }
 #nav ul {
 	margin: 0px;
@@ -83,26 +86,28 @@ a:hover {
 	background: url(../images/nav-h.jpg) top repeat-x;
 }
 #mid-wraper {
-	width: 70%;
+	width: 934px;
 	margin: 0 auto;
 	padding: 0px;
+	border-radius:10px;
 }
 #mid-wraper-inner {
-	width: 100%;
-	height: 100%;
+	width: 934px;
 	float: left;
 	background: url(../images/mid-bg.jpg) repeat-y;
-	background-color: white;
+	border-radius: 10px;
 }
 #left-wraper {
-	width: 23%;
-	float:left;
+	width: 296px;
+	float: left;
+	border-radius: 10px;
 }
 #left-wraper-top {
-	width: 100%;
+	width: 296px;
 	background: #fef4e9 url(../images/left-mid.jpg) bottom no-repeat;
 	padding: 0px 0px 12px 0px;
 	float: left;
+	border-radius: 10px;
 }
 #left-wraper-top ul {
 	margin: 0px;
@@ -112,7 +117,7 @@ a:hover {
 	float: left;
 }
 #left-wraper-top ul li {
-	width: 100%;
+	width: 241px;
 	float: left;
 	line-height: 31px;
 	padding: 0px 15px 0px 40px;
@@ -131,7 +136,8 @@ a:hover {
 	text-decoration: none;
 }
 #news {
-	width: 30%;
+	width: 270px;
+	float: left;
 	padding: 15px 0px 10px 15px;
 	color: #fff;
 	font-family: Arial, Helvetica, sans-serif;
@@ -194,8 +200,8 @@ h2 {
 	text-align: left;
 }
 #right-wraper {
-	width: 50%;
-	float: right;
+	width: 612px;
+	float: left;
 	padding:15px 0px 0px 25px;
 	overflow: auto;
 	height: 500px;
@@ -211,13 +217,13 @@ h2 {
 	color: #0e7aa5;
 }
 #foter {
-	width: 100%;
+	width: 934px;
 	margin: 0 auto;
 	padding: 0px;
 	color: #999999;
 }
 #foter-inner {
-	width: 100%;
+	width: 934px;
 	float: left;
 	padding: 10px 0px;
 }
