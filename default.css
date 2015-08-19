@@ -1,4 +1,4 @@
-	html, body
+﻿	html, body
 	{
 		height: 100%;
 	}
@@ -431,7 +431,7 @@
 	.column3,
 	.column4
 	{
-		width: 282px;
+		width: 30%;
 	}
 	
 	.column1,
