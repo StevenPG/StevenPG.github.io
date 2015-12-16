@@ -45,9 +45,7 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Kutztown University
-                    <small>Augmented Reality</small>
-                </h1>
+                <h1 class="page-header">External Ip Checker</h1>
             </div>
         </div>
         <!-- /.row -->
@@ -56,66 +54,34 @@
         <div class="row">
 
             <div class="col-md-8">
-				<img src="img/kuar.png" alt="Image of Application pointing at Schaeffer Auditorium">
+				<img src="img/testimage.png" alt="Image of Application pointing at Schaeffer Auditorium">
             </div>
 
             <div class="col-md-4">
                 <h3>Project Description</h3>
                 <p>
-					KUAR is short for Kutztown University Augmented Reality  
-					and is an android application that was designed, tested, 
-					and implemented throughout the college course: CSC354WI, 
-					Software Engineering.
-				</p>
-				<p>
-					The app allows prospective students with an Android device
-					to use their camera to learn information about campus 
-					buildings. Pointing the device at buildings allows a 
-					user to select that building and have relevant 
-					information displayed.
-				</p>
-				<p>
-					The primary objective of the course 
-					was to design an application completely 
-					from scratch while following the 
-					standards of a modified agile methodology.
+					IpChecker is a simple java class that allows for easy retrieval of the
+					external ip address of the current machine using a static method.
 				</p>
                 <h3>Project Details</h3>
-                <ul>
-                    <li>
-						I led the team of five Kutztown 
-						University students throughout 
-						the project. The team was comprised 
-						of 
-						<a href="https://github.com/StevenPG">myself</a>, 
-						<a href="https://github.com/Jhart353">Justin</a>, 
-						<a href="https://github.com/lbogu779">Lori </a>
-						and two CDE 
-						(Communication and Design) majors.
-					</li>
-                    <li>
-						Roles:
-					</li>
-					<ul>
-						<li>
-							My role was to design and implement location 
-							based augmented reality. Due to lacking or 
-							expensive libraries, my role expanded to 
-							design a limited API for augmented reality.
-						</li>
-						<li>
-							The CDE students worked together to generate all 
-							designs and draft each prototype before each weekly meeting.
-						</li>
-							Lori was in charge of documentation and some 
-							interface design work for the application UI. 
-						<li>
-							Justin's role was implementing a Google-Maps 
-							style UI that allowed the user to see their 
-							current location.
-						</li>
-					</ul>
-                </ul>
+                <p>
+                	The class encapsulates all need for URL handling and website parsing by
+                	automatically using the free amazon web services URL, parsing its output,
+                	and returning this value as a string. 
+                </p>
+                <p>
+                	From within the static method, objects are generated that attempt to retrieve
+                	the external ip address. Should there be any exceptions, a specific error string
+                	is returned with an integer that represents the specific error.
+                </p>
+                <p>
+                	 <u>To use the static method:</u><br>
+					 String externaIP = IpChecker.getIP();
+					 <br>
+					 <br>If there is an error forming URl, -1 is returned as string
+					 <br>If there is an error reading the web page, -2 is returned as string
+					 <br>If there is an unknown error, -3 is returned as string
+                </p>
             </div>
         </div>
         <!-- /.row -->
@@ -128,21 +94,9 @@
             </div>
 			<ul>
 				<h3>
-					- The code is publically available on GitHub 
-					<a href="https://github.com/StevenPG/KUSelfTour">
+					- The class is publically available on GitHub 
+					<a href="https://github.com/StevenPG/ExternalIPChecker/raw/master/bin/IpChecker.java">
 						Here
-					</a>
-				</h3>
-				<h3>
-					- You can download the APK directly from GitHub
-					<a href="https://github.com/StevenPG/KUSelfTour/blob/master/app/app-release.apk?raw=true">
-						Here
-					</a>
-				</h3>
-				<h3>
-					- This is a direct link to the 
-					<a href="https://play.google.com/store/apps/details?id=com.csc354cde335.kuselftour&hl=en">
-						Google Play Store listing
 					</a>
 				</h3>
 			</ul>
