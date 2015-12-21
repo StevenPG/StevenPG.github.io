@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kutztown University Augmented Reality Project</title>
+    <title>External IP Checker</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -53,35 +53,34 @@
         <!-- Portfolio Item Row -->
         <div class="row">
 
-            <div class="col-md-8">
-				<img src="img/testimage.png" alt="Image of Application pointing at Schaeffer Auditorium">
+            <div class="col-md-5">
+				<img src="img/testimage.png" alt="">
             </div>
 
-            <div class="col-md-4">
-                <h3>Project Description</h3>
-                <p>
+            <div class="col-md-7">
+                <h3><u>Project Description</u></h3>
+                <h4>
 					IpChecker is a simple java class that allows for easy retrieval of the
 					external ip address of the current machine using a static method.
-				</p>
-                <h3>Project Details</h3>
-                <p>
+				</h4>
+                <h4>
                 	The class encapsulates all need for URL handling and website parsing by
                 	automatically using the free amazon web services URL, parsing its output,
                 	and returning this value as a string. 
-                </p>
-                <p>
+                </h4>
+                <h4>
                 	From within the static method, objects are generated that attempt to retrieve
                 	the external ip address. Should there be any exceptions, a specific error string
                 	is returned with an integer that represents the specific error.
-                </p>
-                <p>
+                </h4>
+                <h4>
                 	 <u>To use the static method:</u><br>
 					 String externaIP = IpChecker.getIP();
 					 <br>
 					 <br>If there is an error forming URl, -1 is returned as string
 					 <br>If there is an error reading the web page, -2 is returned as string
 					 <br>If there is an unknown error, -3 is returned as string
-                </p>
+                </h4>
             </div>
         </div>
         <!-- /.row -->
