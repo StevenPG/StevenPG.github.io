@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>Steven Gantz - Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap Core CSS -->
@@ -17,6 +17,8 @@
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
+	<link href="css/projectanimations.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -44,19 +46,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+                <a class="navbar-brand topnav">Web Portfolio</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+				    <li>
+                        <a href="#home">Home</a>
+                    </li>
                     <li>
                         <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#experience">Experience</a>
                     </li>
                 </ul>
             </div>
@@ -65,27 +70,23 @@
         <!-- /.container -->
     </nav>
 
-
     <!-- Header -->
-    <a name="about"></a>
+    <a name="home"></a>
     <div class="intro-header">
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
+                        <h1>Steven Gantz</h1>
+                        <h3>Web Portfolio</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="https://github.com/StevenPG" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
                             <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                <a href="https://www.linkedin.com/in/stevengantz" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
                         </ul>
                     </div>
@@ -100,96 +101,258 @@
 
     <!-- Page Content -->
 
-	<a  name="services"></a>
+	<a  name="about"></a>
     <div class="content-section-a">
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+					<h3>About Me</h3>
+                    <h2 class="section-heading">I'm a Software Developer<br></h2><hr>
+                    <p class="lead">
+						I graduated from <strong>Kutztown University</strong>
+                        in <strong>May of 2016</strong> with a bachelors degree in Computer Science
+                        specializing in <strong>Software Development</strong>.
+                        I am currently enrolled at Kutztown working towards a
+                        <strong>Masters in Computer Science</strong>.
+					</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive" src="http://stevengantz.com/img/me.jpg" alt="">
+					<!--<img class="img-responsive" src="http://www.pissedoffgeek.com/wordpress/wp-content/uploads/2015/05/Laptop.jpg" alt="">-->
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
 
     </div>
     <!-- /.content-section-a -->
 
+	<a  name="portfolio"></a>
     <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+        <!-- Portfolio Section
+                ==========================================-->
+                <div id="tf-works">
+                    <div class="container"> <!-- Container -->
+                    <div class="section-title text-center center">
+                        <h2>Feel free to browse <strong>my projects</strong></h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                        <div class="clearfix"></div>
+                        <small><em>
+                        Here I house my academic and recreational projects. All projects that are runnable
+                        online are linked through here. Feel free to fork, star, or contribute on any open
+                        source projects I have listed here.
+                        </em></small>
+                    </div>
+                    <div class="space"></div>
+                    <div class="categories">
+                        
+                        <ul class="cat">
+                            <li class="pull-left"><h4>Filter by Type:</h4></li>
+                            <li class="pull-right">
+                                <ol class="type">
+                                    <li><a href="#" data-filter="*" class="active">All</a></li>
+                                    <li><a href="#" data-filter=".rec">Recreational</a></li>
+                                    <li><a href="#" data-filter=".academic">Academic</a></li>
+                                    <li><a href="#" data-filter=".app" >Android</a></li>
+                                    <li><a href="#" data-filter=".java" >Java</a></li>
+                                    <li><a href="#" data-filter=".python" >Python</a></li>
+                                    <li><a href="#" data-filter=".js" >JavaScript</a></li>
+                                </ol>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div id="lightbox" class="row">
+                        <div class="col-sm-6 col-md-3 col-lg-3 academic app">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#pmappmodal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>Project Management App</h4>
+                                            <small>Android</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/pmapp.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 academic js">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#tommymodal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>Tommy The Trashman</h4>
+                                            <small>JavaScript</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/roomrunner.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 academic java">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#memorymodal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>Memory Card Game</h4>
+                                            <small>Java</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/memory.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 rec app">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#rtcmodal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>'Round The Corner</h4>
+                                            <small>Android</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/rtcfrontpage.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 academic python">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#pmwebmodal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>PM-APP Web Server</h4>
+                                            <small>Python</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/projmanwebserv.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 academic js">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#220modal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>CSC220 Projects</h4>
+                                            <small>JavaScript</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/p1p2.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 academic app">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#kuarmodal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>KUSelfTour</h4>
+                                            <small>Android</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/kuarlink.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 rec java">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#emailermodal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>Emailer Servlet</h4>
+                                            <small>Java</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/emailersized.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 rec python">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#rmcoremodal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>Remove Seg-Fault Cores</h4>
+                                            <small>Python</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/removecores.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 rec java">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#ipretmodal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>External IP Retriever</h4>
+                                            <small>Java</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/screenshot.png" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-3 academic js">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#graphthrymodal">
+                                <div class="hover-bg">
+                                    <a href="javascript:void(0);">
+                                        <div class="hover-text">
+                                            <h4>Graph Theory Project</h4>
+                                            <small>JavaScript</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/portfolio/graphtheory.jpg" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-        </div>
         <!-- /.container -->
 
     </div>
     <!-- /.content-section-b -->
 
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-	<a  name="contact"></a>
+	<a  name="experience"></a>
     <div class="banner">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
+                    <h2>Where I've Been...</h2>
                 </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
+			</div>
+			<div class="row">
+				<img src="https://s3.amazonaws.com/rm3.photos.prod.readmedia.com/brandings/32848/medium/profile.jpg?2016" alt="some_text" style="width: 30%;height: 100%;padding: 0px 10px 0px 10px;">
+				<img src="https://www.ariasystems.com/sites/default/files/aria-customer-vertex.png" alt="some_text" style="width: 30%;height: 100%;padding: 0px 10px 0px 10px;">
+				<img src="https://pbs.twimg.com/profile_images/524546700912775168/m8XJ1ZPp.jpeg" alt="some_text" style="width: 30%;height: 100%;padding: 0px 10px 0px 10px;">
             </div>
-
         </div>
         <!-- /.container -->
 
@@ -203,7 +366,7 @@
                 <div class="col-lg-12">
                     <ul class="list-inline">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#home">Home</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
@@ -211,14 +374,14 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#experience">Experience</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Steven Gantz 2016. All Rights Reserved</p>
                 </div>
             </div>
         </div>
@@ -232,6 +395,9 @@
 	
 	<!-- Custom JavaScript -->
 	<script src="js/smoothscroll.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/jquery.isotope.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 
