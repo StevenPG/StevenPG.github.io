@@ -1004,10 +1004,39 @@
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h4 class="modal-title">ResNet Technician</h4>
+						<h5>August 2013 - May 2016 (2 years 10 months)</h5>
                     </div>
                     <div class="modal-body">
                         <div class="row">
+							<p style="padding-left: 1%;">
+								During my time as a student at Kutztown university, I worked
+								part time as a ResNet Technician.
+							</p>
 						</div>
+						<div class="row">
+							<p style="padding-left: 1%;">
+								This student job taught me a range of concepts, from hardware repair
+								to malware removal in consumer devices, including laptops, desktops, 
+								phones, and tablets.
+							</p>
+						</div>
+						<div class="row">
+							<p style="padding-left: 1%;">
+								I became proficient at the following skills and technologies.
+							</p>
+						</div>
+						<div class="row">
+							<ul style="padding-left: 5%;">
+								<li>Motherboard Replacement</li>
+								<li>Hard Drive Replacement</li>
+								<li>Laptop Screen Replacement</li>
+								<li>Malware Removal</li>
+								<li>Rootkit Removal</li>
+								<li>Windows Troubleshooting</li>
+								<li>Linux Troubleshooting</li>
+							</ul>
+						</div>
+						<img src="./img/resnet.jpg" alt="Kutztown Logo" style="width: 100%;height: 100%;padding: 0px 10px 0px 10px;">
 					</div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1025,7 +1054,9 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Vertex - Software Engineer in Test</h4>
+                        <h4 class="modal-title">Vertex - Temporary Software Engineer in Test</h4>
+						<h5>May 2014 - August 2014 (4 months)</h5>
+						<h5>May 2015 - August 2015 (4 months)</h5>
                     </div>
                     <div class="modal-body">
                         <div class="row">
@@ -1048,6 +1079,20 @@
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h4 class="modal-title">QVC - Associate Applications Developer</h4>
+						<h5 id="currentJobTime">June 2013 - Present (X)</h5>
+						<!-- Short JavaScript to set current length of time at current job -->
+						<script>
+							function monthDiff(d1, d2) {
+								var months;
+								months = (d2.getFullYear() - d1.getFullYear()) * 12;
+								months -= d1.getMonth() + 1; // Add 1 for 0 base
+								months += d2.getMonth() + 2; // Round up also add 1 for 0 base
+								return months <= 0 ? 0 : months;
+							}
+							var totalMonths = monthDiff(new Date(2016, 6, 1), new Date());
+							var currentJob = document.getElementById("currentJobTime");
+							currentJob.textContent = "June 2013 - Present (" + totalMonths + " months)";
+						</script>
                     </div>
                     <div class="modal-body">
                         <div class="row">
