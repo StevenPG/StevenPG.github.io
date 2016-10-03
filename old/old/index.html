@@ -1,544 +1,535 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
+<!DOCTYPE html>
+<html lang="en">
 
-Name       : TwoColours 
-Heavily Modified: Steven Gantz
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 2.0
-Released   : 20130811
-Modified   : 20150819
-
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- This is a test edit -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+  <!-- Thumbnail tags -->
+  <meta name="title" content="Steven Gantz Portfolio" />
+  <meta name="description" content="Project Portfolio Webpage" />
+  <link rel="image_src" href="./thumbnail.jpg" />
+
+  <title>Steven Gantz Web Portfolio</title>
+  <!--
+	The majority of the code here was taken from an HTML5 template website. It
+	was then heavily modified and re-organized to be used as my portfolio site.
+	-->
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+  <!-- Custom Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
-<body>
-<div id="header">
-	<div id="menu" class="container">
-		<ul>
-			<li class="current_page_item"><a href="#contact" accesskey="1" title="">Contact Me</a></li>
-			<li><a href="#projects" accesskey="2" title="">Projects</a></li>
-			<li><a href="#quick" accesskey="3" title="">Quick Links & Resources</a></li>
-			<li><a href="#web" accesskey="4" title="">Web Apps</a></li>
-		</ul>
-	</div>
-</div>
-<div id="logo" class="container">
-	<h1><a href="#" class="icon icon-tasks"><span>Steven Gantz</span></a></h1>
-</div>
-<div id="page" class="container">
-	<div id="content">
-		<div class="title">
-			<h2>About Me</h2>
-			<span class="byline">
-				I'm a student at Kutztown
-				University studying Computer Science and specializing in
-				Software Development.
-			</span>
-		</div>
-		<p>
-			This is <strong>My Portfolio</strong>, 
-			a place where I store and document all of my
-			side projects and resources for display, ease
-			of access, and later use. This page was heavily
-			modified from a HTML5 template that is linked at
-			the bottom of the page. 
-		</p>
-		<p style="text-decoration:underline">Technical Skills</p>
-		<div style="float:left;">
-			<ul>  
-			  <li>- Java (Proficient)</li>
-			  <li>- Python (Professional Experience)</li>
-			  <li>- C/C++ (Prior Academic Experience)</li>
-			  <li>- MSSQL/Oracle/DB2 (Limited Experience)</li>
-			</ul>
-		</div>
-		<div>
-			<ul>  
-			  <li>- Maven (Limited Experience)</li>
-			  <li>- Subversion (Professional Experience)</li>
-			  <li>- Git (Daily Personal Use)</li>
-			</ul>
-		</div>
-	</div>
-	<div id="sidebar"><a href="#" class="image image-full"><img src="images/frontpage.jpg" alt="" /></a></div>
-</div>
-<div id="featured-wrapper">
-	<div id="featured" class="container">
-		<div class="major">
-			<a name="contact"></a>
-			<a href="#">
-					<img src="images/tiwaz.rune.png" style="height:50px;width:50px;"alt=""/>
-				</a>
-			<p>Back to top</p>
-			<h2>
-				Contact Me
-			</h2>			
-		<span class="byline">You can use the links or form below to contact me</span>
-		</div>
-		<div class="column1">
-			<div class="title"><br>
-			<a href="https://github.com/StevenPG"><img src="images/github.icon.png" alt=""/><br><br></a>
-				<h2>GitHub</h2>
-				<span class="byline">Projects located here may be in progress</span>
-			</div>
-		</div>
-		<div class="column2">
-			<div class="title">
-				<a href="https://www.linkedin.com/in/stevengantz"><img src="images/linkedin.icon.png" alt=""/></a>
-				<h2>LinkedIn</h2>
-				<span class="byline">I can be reached through LinkedIn here</span>
-			</div>
-		</div>
-		<div class="column3">
-			<div class="title"><br><br>
-				<form id="form" class="form" name="form" action="mailto:steven.p.gantz@gmail.com" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
-				    <div class="content">
-				        <div id="section0" >
-				          <div class="field"><label for="Email">Email </label><input type="email" id="Email" name="Email" maxlength="255" size="40" placeholder="You can enter your email here so that I can reply to you"></div>
-				          <br>
-				          <div class="field"><label for="Name">Name </label><input type="text" id="Name" name="Name" size="40" placeholder="Please enter your name" required></div>
-				          <br>
-				          <div class="field"><label for="Phone">Phone </label><input type="number" id="Phone" name="Phone" placeholder="You can enter your phone number for me to contact you"></div>
-				          <br>
-				          <div class="field"><label for="Message">Message </label><textarea id="Message" name="Message" wrap="hard" required></textarea></div>
-				          <br>
-				          <div class="field"><input type="submit" id="Submit" name="Submit" onsubmit="window.location.reload();"></div>
-			           </div>
-			         </div>
-			       </div>
-			  </form>
-			</div>
-		</div>
-	</div>
-</div>
-<div id="portfolio-wrapper">
-	<div id="portfolio" class="container">
-		<div class="major">
-			<a name="projects"></a>
-			<a href="#">
-					<img src="images/tan.tiwaz.rune.png" style="height:50px;width:50px;"alt=""/>
-				</a>
-			<p>Back to top</p>
-			<h2>
-				Projects
-			</h2>
-			<span class="byline">These are my public projects that have been completed and released.</span>
-		</div>		
-		<div style="height:650px;overflow:scroll;">
-			<!-- Start project listing -->
-			<div><!-- Start KUAR Android app listing-->
-				<hr>
-			  <div style="width:38%;float:left">
-				<h2> Kutztown University Augmented Reality</h3>
-				<a href="images/KUAR/example.png" target="_blank">
-				<img src="images/KUAR/example.png" alt="" style="height:384px;width:216px"/>
-				</a>
-			  </div>
-			  <div style="width:62%;float:left;">
-			  <p id="padright">
-			  	KUAR is short for Kutztown University Augmented Reality. KUAR is an android
-			  	application that was designed, tested, and implemented throughout the college
-			  	course: CSC354WI, Software Engineering.
-			  </p>
-			  <p id="padright">
-			  	KUAR allows prospective students with an Android device to use their camera to
-			  	learn information about campus buildings. Pointing the device at buildings allows
-			  	a user to select that building and have relevant information displayed.
-			  </p>
-			  <p id="padright">
-			  	The primary objective of the course was to design an application completely from scratch
-			  	while following the standards of a modified agile methodology.
-			  </p>
-			  <p id="padright">
-			  	I led the team of five Kutztown University students throughout the project. The team
-			  	was comprised of 
-			  	<a href="https://github.com/StevenPG">myself</a>,
-			  	<a href="https://github.com/Jhart353">Justin</a>,
-			  	<a href="https://github.com/lbogu779">Lori</a>
-			  	 and two CDE (Communication and Design) majors.
-			  </p>
-			  <p id="padright">
-			  	Each student was responsible for some portion of the application. The CDE students worked
-			  	together to generate all designs and draft each prototype before each weekly meeting. Lori
-			  	was in charge of documentation and some interface design work for the application UI. Justin's
-			  	role was implementing a Google-Maps style UI that allowed the user to see their current location.
-			  	My role was to design and implement location based augmented reality. Due to lacking or expensive
-			  	libraries, my role expanded to design a limited API for augmented reality.
-			  </p>
-			  <p id="padright">
-			    The code is publically available on GitHub at the link below:
-			  </p>
-			  <h2>
-			    <a href="https://github.com/StevenPG/KUSelfTour">
-			    StevenPG's KUAR Repository</a>
-			  </h2>
-			  </div>
-			</div><!-- End Android app KUAR listing -->
-			<br><br>
-			<hr>
-			<br><br>
-			<div><!-- Start Round The Corner Android app listing-->
-			  <div style="width:38%;float:left">
-				<h2> 'Round The Corner</h3>
-				<a href="images/RTC/RTC.jpg" target="_blank">
-				<img src="images/RTC/RTC.jpg" alt="" style="height:384px;width:216px"/>
-				</a>
-			  </div>
-			  <div style="width:62%;float:left;">
-			  <p id="padright">
-				Round The Corner is an android application that allows a user to preset
-				a contact, a message, an address, and a delivery distance.
-			  </p>
-			  <p id="padright">
-			    Using GPS,
-			    the application detects when the device is within the delivery distance
-				to the entered address and proceeds to send, hands free, the input message
-				to the selected contact!</p>
-			  <p id="padright">
-			    Perfect for letting someone know hands free when
-			    you are within a certain distance to their location.
-			  </p>
-			  <p id="padright">
-			    The application is downloadable 
-			    <a href="https://play.google.com/store/apps/details?id=com.stevenpg.roundthecorner" target="_blank">
-			      Here</a>
-			    for nearly any device.
-			  </p>
-			  <p id="padright">
-			    The code is publically available on GitHub at the link below:
-			  </p>
-			  <h2>
-			  <a href="https://github.com/StevenPG/RoundTheCorner" target="_blank">
-			    StevenPG's Round The Corner Repository</a>
-			  </h2>
-			  <p id="padright">
-			    You can download the APK directly
-			    <a href="https://github.com/StevenPG/RoundTheCorner/blob/master/app/app-release.apk?raw=true">
-				Here</a>
-			  </p>
-			  <p style="text-decoration:underline"> More Images Below: </p>
-			    <a href="images/RTC/RTC1.jpg">
-			  	  <img src="images/RTC/RTC1.jpg" alt="" style="height:128px;width:72px"/>
-			  	</a>
-			  	<a href="images/RTC/RTC2.jpg">
-			  	  <img src="images/RTC/RTC2.jpg" alt="" style="height:128px;width:72px"/>
-			  	</a>
-				<a href="images/RTC/RTC3.jpg">
-			  	  <img src="images/RTC/RTC3.jpg" alt="" style="height:128px;width:72px"/>
-			  	</a>
-				<a href="images/RTC/RTC4.jpg">
-			  	  <img src="images/RTC/RTC4.jpg" alt="" style="height:128px;width:72px"/>
-			  	</a>
-			  </div>
-			</div><!-- End Android app Round The Corner listing -->
-			<br><br>
-			<hr>
-			<br><br>
-			<div><!-- Start Java IP Checker listing-->
-			  <div style="width:100%;float:left">
-				<h2> Java External IP Checker</h2>
-				<br>
-				<p id="padright">
-			  	  The Java External IP Checker is a simple class containing only one static method.
-			  	  To use this method, the only requirement is importing the .java file into a project.
-			   	</p>
-			   	<p id="padright">
-			   	  Java External IP Checker's static method retrieves the calling machine's external IP
-			   	  address by making a call to the public facing, free amazon web services API.
-			   	</p>
-			   	<p id="padright">
-			   	  Libraries used:
-			   	</p>
-			   	<ul>
-			   	  <li>java.io.BufferedReader</li>
-			   	  <li>java.io.InputStreamReader</li>
-			   	  <li>java.io.IOException</li>
-			   	  <li>java.net.URL</li>
-			   	  <li>java.net.MalformedURLException</li>
-			   	</ul>
-			   	<p id="padright">
-			   	  If an issue occurs, an error code is returned. The meaning of each code is outlined
-			   	  in the source code of the class.
-			   	</p>
-			   	<p id="padright">
-			   	  Usage: String ip = IpChecker.getIP();
-			   	</p>
-			   	<p id="padright">
-			      The java file is downloadable by right clicking and selecting save link as 
-			     <a href="https://raw.githubusercontent.com/StevenPG/Java-External-IP-Checker/master/IpChecker.java"
-						  target="_blank">
-			      Here</a>.
-			    </p>
-			   	<p id="padright">
-			      The remaining code is publically available on GitHub at the link below:
-			    </p>
-				<h2>
-			    <a href="https://github.com/StevenPG/Java-External-IP-Checker">
-			    StevenPG's Java-External-IP-Checker Repository</a>
-			  </h2>
-			  </div>
-			  </div><!-- End Java IP Checker listing -->
-			<br><br>
-			<hr>
-			<br><br>
-			<div><!-- Start Python core-remove listing-->
-			  <div style="width:100%;float:left">
-				<h2> Python Core Remover</h2>
-				<br>
-				<div style="width:52%;float:left">
-				<a href="images/coreremove/coreremove.png" target="_blank">
-				<img src="images/coreremove/coreremove.png" alt="" style="height:100px;width:300px"/>
-				</a>
-			  </div>
-			  <div style="width:48%;float:right;">
-				<p id="padright">
-			  	  Core remove is a python application with the primary purpose of
-			  	  finding core created by segmentation faults and core dumps during
-			  	  development. 
-			  	</p>
-			  	<p id="padright">
-			  	  A common oversight by students in a computer science program
-			  	  is overlooking the core files created during development. Segmentation faults
-			  	  are common when working with C and C++. 
-			  	</p>
-			  	<p id="padright">
-			  	  At Kutztown, each student has a quota of
-			  	  disk space on the school's Unix machine. Having multiple core files will quickly
-			  	  fill a students disk quota. Students who are not yet fluent at the command line
-			  	  often have trouble navigating through many directories to find and delete these
-			  	  large files. 
-			   	</p>
-			   	<p id="padright">
-			   	  Core Remove allows a user to run a quick script from their highest directory to
-			   	  clean out their entire directory structure of any possible cores. Saving time and
-			   	  helping students see (through output messages) where the cores are located for
-			   	  future searching.
-			   	</p>
-			   	<p id="padright">
-			   	  
-			   	</p>
-			  </div>
-			  	<p id="padright">
-			  	  This script is only usable on systems that have the 'rm' standard linux command
-			  	  installed. The script is not compatible with Windows.
-			  	</p>
-			  	<p id="padright">
-			  	  This script was originally created as an easy to understand example of how to use
-			  	  recursion effectively.
-			  	</p>
-			   	<p id="padright">
-			      The python file is downloadable by right clicking and selecting save link as 
-			     <a href="https://raw.githubusercontent.com/StevenPG/core-remove/master/core-remove.py"
-						  target="_blank">
-			      Here</a>.
-			    </p>
-			   	<p id="padright">
-			      The remaining code is publically available on GitHub at the link below:
-			    </p>
-				<h2>
-				<a href="https://github.com/StevenPG/core-removehttps://github.com/StevenPG/core-remove">
-			 </a>
-			    <a href="https://github.com/StevenPG/core-remove">
-			    StevenPG's Core-Remove Repository</a>
-			  </h2>
-			  </div>
-			  </div><!-- End core remove listing -->
-			<br><br>
-			<hr>
-			<br><br>
-		</div>
-	</div>
-</div>
-<div id="featured-wrapper">
-	<div id="featured" class="container">
-		<div class="major">
-			<a name="quick"></a>
-			<a href="#">
-					<img src="images/tiwaz.rune.png" style="height:50px;width:50px;"alt=""/>
-				</a>
-			<p>Back to top</p>
-			<h2>
-				Quick Links & Resources (Change to 3 columns and center)
-			</h2>
-		</div>
-		<h1><a href="http://download.teamviewer.com/download/TeamViewerQS_en-ckj.exe">
-		  TeamViewer Quick Support Direct Download</a>
-		</h1>
-<hr><br><br>
-<!-- Left side resources -->
-<div style="width:33%;float:left;">
 
-  <h2>Java</h2>
-  <ul>
-	  <li><a href="http://www.java.com/en/download/">
-	      Latest Java Version Download
-	  </a></li>  
-  </ul>
+<body id="page-top">
 
-  <h2>Android</h2>
-  <ul>
-    <li><a href="http://developer.android.com/sdk/index.html">
-      Android Studio
-    </a></li>
-  </ul>
-  
-  <h2>Web (HTML/CSS/JS)</h2>
-  <ul>
-    <li><a href="http://howtocenterincss.com/">
-      CSS Center Element Generator
-    </a></li>
-  </ul>
-</div>
-<!-- End left side resources -->
-<!-- Start mid resources -->
-<!-- Left side resources -->
-<div style="width:33%;float:left;">
- 
-  <h2>API Repositories</h2>
-  <ul>
-    <li><a href="http://www.programmableweb.com/apis/directory">
-      ProgrammableWeb (~14,000)
-    </a></li>
-    <li><a href="https://www.publicapis.com/">
-      PublicApis (~5500)
-	</a></li>
-	<li><a href="http://www.webdesignerdepot.com/2011/07/40-useful-apis-for-web-designers-and-developers/">
-      WebDesignerDepot (~40)
-	</a></li>
-  </ul>  
-  
-  <h2>Libraries</h2>
-  <ul>
-    <li><a href="https://github.com/sindresorhus/awesome">
-      "Awesome" List of Libraries (Many languages)
-    </a></li>
-    <li><a href="https://github.com/akullpp/awesome-java">
-      Java "Awesome" Libraries
-    </a></li>
-    <li><a href="https://thatjavanerd.github.io/JRAW/">
-	  Java Reddit API Wrapper (Unstable)
-	</a></li>
-    <li><a href="https://pypi.python.org/pypi/praw">
-	  Python Reddit API Wrapper (Stable)
-	</a></li>
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Back to Top</a>
+      </div>
 
-  </ul>
-  
-</div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#resources">Resources</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
 
-<!-- End mid resources -->
-<!-- right side resources -->
-<div style="width:33%;float:right;">  
-  <h2>Build Tool Tutorials</h2>
-  <ul>
-    <li><a href="https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html">
-      Ant
-    </a></li>
-    <li><a href="http://www.tutorialspoint.com/maven/index.htm">
-      Maven
-    </a></li>
-    <li><a href="http://examples.javacodegeeks.com/core-java/gradle/gradle-hello-world-tutorial/">
-      Gradle
-	</a></li>
-  </ul>
-  
-  <h2>Code Tutorials</h2>
-  <ul>
-  <h3>Python</h3>
-    <li><a href="http://praw.readthedocs.org/en/latest/pages/writing_a_bot.html">
-      Reddit Bot
-    </a></li>
-  <h3>Java</h3>
-    <li><a href="https://www.youtube.com/playlist?list=PL-2t7SM0vDfdYJ5Pq9vxeivblbZuFvGJK">
-      Java 2D Game
-	</a></li>
-	<li><a href="http://developer.android.com/training/basics/firstapp/index.html">
-	  Simple Android App
-	</a></li>
-	<li><a href="http://www.journaldev.com/1854/java-web-application-tutorial-for-beginners">
-	  Java Beginner Web App
-	</a></li>
-	<li><a href="http://www.javacodegeeks.com/2015/08/how-to-create-a-web-application-project-with-java-maven-jetty.html">
-	  Java Web App (Using Maven and Jetty)
-	</a></li>
-	<h3>C/C++</h3>
-	<li><a href="http://lazyfoo.net/SDL_tutorials/">
-      C++ 2D Game (SDL)
-	</a></li>
+  <header>
+    <div class="header-content">
+      <div class="header-content-inner">
+        <!-- Page Orange: #F05F40 -->
+        <h1 style="text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;">Steven Gantz Project Portfolio</h1>
+        <hr>
+        <p style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+          This is My Portfolio, a place where I store and document all of my side projects and resources for display, ease of access, and later use.
+        </p>
+        <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">Jump to Portfolio</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">About Me!</h2>
+          <hr class="light">
+          <img src="img/headshotfastload.png" height="140px">
+          <p class="text-faded">
+            <br> I'm a student at Kutztown University graduating Spring 2016 with a degree in Computer Science specializing in Software Development.
+          </p>
+          <p class="text-faded">
+            My current interests revolve around Java programming in Java EE and Android programming. I have academic and recreational experience with Java, and some professional experience with Python.
+          </p>
+          <a href="#contact" class="btn btn-default btn-xl">Contact Me!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+      <div class="row no-gutter">
+        <div class="col-lg-3 col-sm-6">
+          <a href="./KUAR/" class="portfolio-box">
+            <img src="img/portfolio/KUAR/kuarlink.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Android Application
+                </div>
+                <div class="project-name">
+                  Kutztown University Augmented Reality (KUAR)
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="./RoundTheCorner/" class="portfolio-box">
+            <img src="img/portfolio/rtcfrontpage.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Android Application
+                </div>
+                <div class="project-name">
+                  Round The Corner
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="./ExternalIPChecker/" class="portfolio-box">
+            <img src="img/portfolio/screenshot.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Java Utility Class
+                </div>
+                <div class="project-name">
+                  External IP Checker
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="./RemoveCore/" class="portfolio-box">
+            <img src="img/portfolio/removecores.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Python Script
+                </div>
+                <div class="project-name">
+                  RemoveCore
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="./JavaCustomMailer/" class="portfolio-box">
+            <img src="img/portfolio/emailersized.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Java Servlet Application
+                </div>
+                <div class="project-name">
+                  JavaCustomMailer
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="./GWTSandbox" class="portfolio-box">
+            <img src="img/portfolio/memory.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  GWT (Google-Web-Toolkit) Projects
+                </div>
+                <div class="project-name">
+                  CSC 421 Assignments
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="./ProcessingSandbox" class="portfolio-box">
+            <img src="img/portfolio/p1p2.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  p5.js Projects
+                </div>
+                <div class="project-name">
+                  CSC 220 Assignments
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="./GraphTheoryProject2016" class="portfolio-box">
+            <img src="img/portfolio/graphtheory.jpg" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  P5.js
+                </div>
+                <div class="project-name">
+                  Graph Theory Research Project
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+		<div class="col-lg-3 col-sm-6">
+          <a href="http://tommythetrashman.weebly.com/" class="portfolio-box">
+            <img src="img/portfolio/roomrunner.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  P5.js
+                </div>
+                <div class="project-name">
+                  Room Runner
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+		<div class="col-lg-3 col-sm-6">
+          <a href="./ProjectManagement/" class="portfolio-box">
+            <img src="img/portfolio/pmapp.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Android App
+                </div>
+                <div class="project-name">
+                  Project Management
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+		<div class="col-lg-3 col-sm-6">
+          <a href="https://github.com/StevenPG/ProjectManagementWebService" class="portfolio-box">
+            <img src="img/portfolio/projmanwebserv.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Python Webservice
+                </div>
+                <div class="project-name">
+                  Project Management RESTful Server
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--
+				<div class="col-lg-3 col-sm-6">
+                    <a href="http://home.stevengantz.com" class="portfolio-box">
+                        <img src="img/homeserversized.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Direct Link
+                                </div>
+                                <div class="project-name">
+                                    Home Server
+                                </div>
+								<div class="project-name">
+                                    For Those With Access
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                -->
+        <div class="col-lg-3 col-sm-6">
+          <a href="http://java.stevengantz.com" class="portfolio-box">
+            <img src="img/portfolio/java-tomcat-apache.png" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Vultr Server
+                </div>
+                <div class="project-name">
+                  Tomcat Applications
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">Let's Get In Touch!</h2>
+          <p>You can contact me through any of the means listed here.</p>
+          <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+          <p><a href="mailto:steven.p.gantz@gmail.com">mailto:steven.p.gantz@gmail.com</a></p>
+          <p><a href="http://104.238.131.94:8080/JavaCustomMailer/">Email me via web form</a></p>
+          <hr>
+          <i class="fa fa-4x fa-github wow bounceIn" style="color:black;" data-wow-delay=".1s"></i>
+          <p><a href="https://github.com/StevenPG">GitHub</a></p>
+          <hr>
+          <i class="fa fa-3x fa-linkedin-square wow bounceIn" style="color:#0077B5;" data-wow-delay=".1s"></i>
+          <p><a href="https://www.linkedin.com/in/stevengantz">LinkedIn</a></p>
 
 
-  </ul>
-</div>
-		</div>
-	</div>
-</div>
-<!-- End right side resources -->
-<div id="portfolio-wrapper">
-	<div id="portfolio" class="container">
-		<div class="major">
-			<a name="web"></a>
-			<a href="#">
-					<img src="images/tan.tiwaz.rune.png" style="height:50px;width:50px;"alt=""/>
-				</a>
-			<p>Back to top</p>
-			<h2>
-				Web Apps
-			</h2>
-			<span class="byline">Below are links to my hosted Web Applications</span>
-		</div>		
-		<div>
-			<ul>
-				<li>
-					<h2>
-						<a href="http://spg.myftp.org:8888/WebServer/Uploads/">
-							Server Upload
-						</a>
-					</h2>
-					<div style="margin-left:auto;margin-right:auto;width:60%;">
-						<h4>
-							This form uploads a file to the hosting server as long as
-							the correct password is input for uploading. The file is
-							saved in a small parition on the server. Once the partition
-							is full, and email is sent and all uploads will fail until
-							the partition is emptied. This allows the machine to not be
-							compromised by a maliciously large upload of one or many files.
-						</h4>
-						<h4>
-							(Front End: Pure JavaScript ; Back End: Pure PHP)
-						</h4>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
 
-</div
-<div id="copyright" class="container">
-	<p>
-		&copy; Dev Portfolio. All rights reserved. | Original Design by 
-		<a href="http://templated.co" rel="nofollow">
-			TEMPLATED
-		</a>
-		, Heavily modified by Steven Gantz , 
-		<a href="old/index.html"> 
-			Original Portfolio
-		</a>
-	</p>
-</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <aside class="bg-dark">
+    <div class="container text-center">
+      <div class="call-to-action">
+        <h2>Jump straight to my GitHub account!</h2>
+        <i class="fa fa-3x fa-code-fork wow bounceIn"></i>
+        <a href="https://github.com/StevenPG" class="btn btn-default btn-xl wow tada">StevenPG</a>
+      </div>
+    </div>
+  </aside>
+
+  <section id="resources">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Resources</h2>
+          <hr class="primary">
+          <a href="http://download.teamviewer.com/download/TeamViewerQS_en-ckj.exe">
+						TeamViewer Direct Download
+					</a>
+          <br>
+          <a href="http://www.vultr.com/?ref=6866800">
+						Direct link to my hosting provider
+					</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-arrow-circle-down wow bounceIn text-primary"></i>
+            <h3>Language Resource Downloads</h3>
+            <p class="text-muted">
+              <a href="http://www.java.com/en/download/" target="_blank">
+								Latest Java Version Download
+							</a>
+            </p>
+            <p class="text-muted">
+              <a href="http://developer.android.com/sdk/index.html" target="_blank">
+								Latest Android Studio Download
+							</a>
+            </p>
+            <p class="text-muted">
+              <a href="http://tomcat.apache.org/download-80.cgi">
+								Tomcat 8.0
+							</a>
+            </p>
+            <p class="text-muted">
+              <a href="https://www.eclipse.org/downloads/">
+								Eclipse Mars
+							</a>
+            </p>
+            <p class="text-muted">
+              Python
+              <a href="https://www.python.org/ftp/python/2.7.10/python-2.7.10.msi" target="_blank">
+								2.7.10
+							</a> ,
+              <a href="https://www.python.org/ftp/python/3.5.0/python-3.5.0.exe" target="_blank">
+								3.5.0
+							</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-wrench wow bounceIn text-primary"></i>
+            <h3>Useful Tools</h3>
+            <p class="text-muted">
+              <a href="http://howtocenterincss.com/" target="_blank">
+								CSS Center Element Generator
+							</a>
+            </p>
+            <p class="text-muted">
+              <a href="https://dev.windows.com/en-us/microsoft-edge/tools/screenshots/" target="_blank">
+								Site Rendering tool
+							</a> (Found by
+              <a href="https://github.com/brendan620">
+									Brendan
+								</a> )
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-folder wow bounceIn text-primary" data-wow-delay=".1s"></i>
+            <h3>Apis</h3>
+            <p class="text-muted">
+              <a href="http://www.programmableweb.com/apis/directory" target="_blank">
+								Programmable Web (~14,000)
+							</a>
+            </p>
+            <p class="text-muted">
+              <a href="https://www.publicapis.com/" target="_blank">
+								Public Apis (~5,500)
+							</a>
+            </p>
+            <p class="text-muted">
+              <a href="http://www.webdesignerdepot.com/2011/07/40-useful-apis-for-web-designers-and-developers/" target="_blank">
+								Web Designer Depot (~40)
+							</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-book wow bounceIn text-primary" data-wow-delay=".1s"></i>
+            <h3>Libraries</h3>
+            <p class="text-muted">
+              <a href="https://github.com/sindresorhus/awesome" target="_blank">
+								"Awesome" List of Libraries (GitHub)
+							</a>
+            </p>
+            <p class="text-muted">
+              Reddit API Wrapper:
+              <a href="https://thatjavanerd.github.io/JRAW/" target="_blank">
+								Java
+							</a> ,
+              <a href="https://pypi.python.org/pypi/praw" target="_blank">
+								Python
+							</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-code wow bounceIn text-primary" data-wow-delay=".2s"></i>
+            <h3>Code Tutorials</h3>
+            <p class="text-muted">
+              <a href="http://praw.readthedocs.org/en/latest/pages/writing_a_bot.html" target="_blank">
+								Python Reddit Bot
+							</a>
+            </p>
+            <p class="text-muted">
+              <a href="http://www.journaldev.com/1854/java-web-application-tutorial-for-beginners" target="_blank">
+								Java Beginner Web App
+							</a>
+              <a href="http://www.javacodegeeks.com/2015/08/how-to-create-a-web-application-project-with-java-maven-jetty.html" target="_blank">
+								(Using Maven & Jetty)
+							</a>
+            </p>
+            <p class="text-muted">
+              <a href="http://developer.android.com/training/basics/firstapp/index.html" target="_blank">
+								Simple Android App
+							</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".3s"></i>
+            <h3>Tool Docs</h3>
+            <p class="text-muted">
+              <a href="https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html" target="_blank">
+								Ant
+							</a>
+            </p>
+            <p class="text-muted">
+              <a href="http://www.tutorialspoint.com/maven/index.htm" target="_blank">
+								Maven
+							</a>
+            </p>
+            <p class="text-muted">
+              <a href="http://examples.javacodegeeks.com/core-java/gradle/gradle-hello-world-tutorial/" target="_blank">
+								Gradle
+							</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/wow.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="js/creative.js"></script>
+
 </body>
+
 </html>
