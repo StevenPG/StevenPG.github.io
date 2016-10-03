@@ -21,6 +21,15 @@ h6 {
     font-weight: 700;
 }
 
+/**
+* https://github.com/daneden/animate.css/issues/170
+* Images onHover
+***/
+.clickableImg:hover {
+	-webkit-animation: pulse 1s linear 1s infinite alternate;
+	animation: pulse 1s linear 0s infinite alternate;
+}
+
 .topnav {
     font-size: 14px; 
 }

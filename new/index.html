@@ -19,6 +19,7 @@
     <link href="css/landing-page.css" rel="stylesheet">
 	<link href="css/projectanimations.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -33,7 +34,7 @@
 
 </head>
 
-<body>
+<body class="animated fadeIn">>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
@@ -46,21 +47,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav">Web Portfolio</a>
+                <a class="navbar-brand topnav animated slideInLeft">Web Portfolio</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-				    <li>
+				    <li class="animated slideInDown">
                         <a href="#home">Home</a>
                     </li>
-                    <li>
+                    <li class="animated slideInDown">
                         <a href="#about">About</a>
                     </li>
-                    <li>
+                    <li class="animated slideInDown">
                         <a href="#portfolio">Portfolio</a>
                     </li>
-                    <li>
+                    <li class="animated slideInDown">
                         <a href="#experience">Experience</a>
                     </li>
                 </ul>
@@ -78,29 +79,29 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Steven Gantz</h1>
-                        <h3>Web Portfolio</h3>
+                        <h1 class="animated fadeInLeft">Steven Gantz</h1>
+                        <h3 class="animated fadeInRight">Web Portfolio</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
-                            <li>
+                            <li class="animated rotateInDownLeft">
                                 <a href="https://github.com/StevenPG" class="btn btn-default btn-lg">
 									<i class="fa fa-github fa-fw"></i> 
 									<span class="network-name">Github</span>
 								</a>
                             </li>
-                            <li>
+                            <li  class="animated rotateInDownLeft">
                                 <a href="https://www.linkedin.com/in/stevengantz" class="btn btn-default btn-lg">
 									<i class="fa fa-linkedin fa-fw"></i> 
 									<span class="network-name">Linkedin</span>
 								</a>
                             </li>
-							<li>
+							<li  class="animated rotateInDownRight">
                                 <a href="#" class="btn btn-default btn-lg">
 									<i class="fa fa-sign-in fa-fw"></i> 
 									<span class="network-name">Portal</span>
 								</a>
                             </li>
-                            <li>
+                            <li  class="animated rotateInDownRight">
                                 <a href="#" class="btn btn-default btn-lg" data-toggle="modal" data-target="#resmodal">
 									<i class="fa fa-search fa-fw"></i> 
 									<span class="network-name">Resources</span>
@@ -126,9 +127,9 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-					<h3>About Me</h3>
-                    <h2 class="section-heading">I'm a Software Developer<br></h2><hr>
-                    <p class="lead">
+					<h3 class="animated bounceInLeft">About Me</h3>
+                    <h2 class="section-heading animated bounceInLeft">I'm a Software Developer<br></h2><hr>
+                    <p class="lead animated bounceInLeft">
 						I graduated from <strong>Kutztown University</strong>
                         in <strong>May of 2016</strong> with a bachelors degree in Computer Science
                         specializing in <strong>Software Development</strong>.
@@ -137,7 +138,7 @@
 					</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="./img/me.jpg" alt="">
+                    <img class="img-responsive animated bounceInRight" src="./img/me.jpg" alt="">
 					<!--<img class="img-responsive" src="http://www.pissedoffgeek.com/wordpress/wp-content/uploads/2015/05/Laptop.jpg" alt="">-->
                 </div>
             </div>
@@ -369,13 +370,13 @@
 			</div>
 			<div class="row">
 				<a href="javascript:void(0);" data-toggle="modal" data-target="#resnetmodal">
-					<img src="./img/ku.jpg" alt="Kutztown Logo" style="width: 30%;height: 100%;padding: 0px 10px 0px 10px;">
+					<img class="clickableImg" src="./img/ku.jpg" alt="Kutztown Logo" style="width: 30%;height: 100%;padding: 0px 10px 0px 10px;">
 				</a>
 				<a href="javascript:void(0);" data-toggle="modal" data-target="#vertexmodal">
-					<img src="./img/vertex.png" alt="Vertex Logo" style="width: 30%;height: 100%;padding: 0px 10px 0px 10px;">
+					<img class="clickableImg" src="./img/vertex.png" alt="Vertex Logo" style="width: 30%;height: 100%;padding: 0px 10px 0px 10px;">
 				</a>
 				<a href="javascript:void(0);" data-toggle="modal" data-target="#qvcmodal">
-					<img src="./img/qvc.jpg" alt="QVC Logo" style="width: 30%;height: 100%;padding: 0px 10px 0px 10px;">
+					<img class="clickableImg" src="./img/qvc.jpg" alt="QVC Logo" style="width: 30%;height: 100%;padding: 0px 10px 0px 10px;">
 				</a>
 			</div>
         </div>
