@@ -1,1 +1,1 @@
-# This is my personal site, visit the URL to learn more!
+# This is my personal site, visit  http://stevenpg.github.io to learn more!
